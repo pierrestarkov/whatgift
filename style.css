@@ -1,0 +1,57 @@
+@font-face
+{
+font-family: fontTitre;
+src: url('fonts/NEORD.ttf');
+}
+
+@font-face
+{
+font-family: fontText;
+src: url('fonts/ArchitectsDaughter.ttf');
+}
+
+h1
+{
+	font-family: fontTitre;
+	font-size: 40px;
+}
+
+body
+{
+/*    font-family: "Trebuchet MS", Arial, Helvetica,"Bitstream Vera Sans", sans-serif; */
+/* font-family:  Courier, "Courier New", "Liberation Mono", monospace; */
+font-family: fontText;
+}
+
+img
+{
+	border: 5px solid #69b;
+}
+
+img, .slider, p
+{
+	
+	display: inline-block;
+	margin:5px;
+	margin-right:20px;
+	margin-left: 20px;
+	vertical-align:middle;
+	 
+}
+
+body
+{
+	 background-color:#b0e0e6;
+	 text-align: center;
+}
+
+#explicationDeLEtude
+{
+	padding: 10px;
+	border: 2px solid #000;
+}
+
+.slider
+{
+ vertical-align:middle;
+ }
